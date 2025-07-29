@@ -1,0 +1,11 @@
+CREATE TABLE employee1 (
+       employee_id SERIAL PRIMARY KEY,
+	   NAME VARCHAR(100),
+	   POSITION VARCHAR(50),
+	   DEPARTMENT VARCHAR(50),
+	   HIRE_DATE DATE,
+	   SALARY NUMERIC(10,2)
+);
+
+
+SELECT * FROM employee1;
